@@ -1,0 +1,12 @@
+Source: ros-turbulent-rosidl-typesupport-opensplice-c
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libopensplice69 (>= 6.9.190403), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-opensplice-cmake-module, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-typesupport-opensplice-cpp, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rosidl-typesupport-opensplice-c
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopensplice69 (>= 6.9.190403), ros-turbulent-ament-cmake, ros-turbulent-opensplice-cmake-module, ros-turbulent-rmw, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-generator-dds-idl, ros-turbulent-rosidl-parser, ros-turbulent-rosidl-typesupport-opensplice-cpp, ros-turbulent-ros-workspace
+Description: Generate the C interfaces for PrismTech OpenSplice.
