@@ -1,1 +1,1 @@
-{"trim": "", "base": "66962fc", "trimbase": "", "parent": "debian/eloquent/rosidl_typesupport_opensplice_cpp", "previous": "095f466"}
+{"base": "dbfda71", "parent": "debian/verystable/rosidl_typesupport_opensplice_cpp", "previous": "582458f", "trim": "", "trimbase": ""}
