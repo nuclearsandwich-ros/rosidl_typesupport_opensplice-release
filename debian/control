@@ -1,0 +1,12 @@
+Source: ros-verystable-rosidl-typesupport-opensplice-c
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libopensplice69 (>= 6.9.190403), ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-opensplice-cmake-module, ros-verystable-rosidl-cmake, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-typesupport-opensplice-cpp, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rosidl-typesupport-opensplice-c
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopensplice69 (>= 6.9.190403), ros-verystable-ament-cmake, ros-verystable-opensplice-cmake-module, ros-verystable-rmw, ros-verystable-rosidl-cmake, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-generator-dds-idl, ros-verystable-rosidl-parser, ros-verystable-rosidl-typesupport-opensplice-cpp, ros-verystable-ros-workspace
+Description: Generate the C interfaces for PrismTech OpenSplice.
